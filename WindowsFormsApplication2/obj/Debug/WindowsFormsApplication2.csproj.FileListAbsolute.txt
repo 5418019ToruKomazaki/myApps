@@ -10,3 +10,12 @@ c:\users\drago\ドキュメント\visual studio 2015\Projects\WindowsFormsApplic
 C:\Users\drago\source\repos\myApps\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
 C:\Users\drago\source\repos\myApps\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
 C:\Users\drago\source\repos\myApps\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+C:\Users\drago\Downloads\myApps-master\myApps-master\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+C:\Users\drago\Downloads\myApps-master\myApps-master\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+C:\Users\drago\Downloads\myApps-master\myApps-master\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+C:\Users\drago\Downloads\myApps-master\myApps-master\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+C:\Users\drago\Downloads\myApps-master\myApps-master\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+C:\Users\drago\Downloads\myApps-master\myApps-master\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csprojResolveAssemblyReference.cache
+C:\Users\drago\Downloads\myApps-master\myApps-master\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form1.resources
+C:\Users\drago\Downloads\myApps-master\myApps-master\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+C:\Users\drago\Downloads\myApps-master\myApps-master\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache

@@ -559,8 +559,10 @@ namespace WindowsFormsApplication2
             return message;
         }
 
-        private int calc_need_hp(int need_hp, int max_value)
+        private int calc_need_hp(int my_hp, int max_value)
         {
+            int need_hp = my_hp;
+
             while (true)
             {
                 int damage = calc_damage(need_hp);
@@ -577,27 +579,31 @@ namespace WindowsFormsApplication2
         {
             double damage = 0;
             double damage_temp;
-            double value = 0;
+            double hp_temp = my_hp;
             Boolean is_matched;
 
-            for (int j = 0; j < listBox2.Items.Count; j++)
+            for (int i = 0; i < listBox2.Items.Count; i++)
             {
-                MatchCollection match = Regex.Matches(myTable[listBox2.Items[j].ToString()], "%");
+                MatchCollection match = Regex.Matches(myTable[listBox2.Items[i].ToString()], "%");
                 is_matched = false;
                 foreach (Match m in match)
                     is_matched = true;
-                
+
+                damage_temp = 0;
+
                 if (is_matched)
-                    value = Convert.ToDouble(my_hp) * (Convert.ToDouble(Regex.Replace(myTable[listBox2.Items[j].ToString()], @"[^0-9]", "")) /100);
-
+                {
+                    if (hp_temp > 0)
+                        damage_temp = Convert.ToDouble(hp_temp) * (Convert.ToDouble(Regex.Replace(myTable[listBox2.Items[i].ToString()], @"[^0-9]", "")) / 100);
+                }
                 else
-                    value = Convert.ToDouble(myTable[listBox2.Items[j].ToString()]);
+                    damage_temp = Convert.ToDouble(myTable[listBox2.Items[i].ToString()]);
 
-                damage_temp = value;
                 if (listBox3.Items.Count >= 1)
                     damage_temp *= calc_cuttingRate();
 
                 damage += damage_temp;
+                hp_temp -= damage_temp;
             }
 
             return Convert.ToInt32(Math.Round(damage));
