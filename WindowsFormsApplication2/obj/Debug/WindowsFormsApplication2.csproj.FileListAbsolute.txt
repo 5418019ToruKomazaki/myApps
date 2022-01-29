@@ -28,3 +28,9 @@ C:\Users\drago\Desktop\myApps-master\myApps-master\WindowsFormsApplication2\obj\
 C:\Users\drago\Desktop\myApps-master\myApps-master\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form1.resources
 C:\Users\drago\Desktop\myApps-master\myApps-master\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
 C:\Users\drago\Desktop\myApps-master\myApps-master\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
+C:\Users\drago\source\repos\myApps\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+C:\Users\drago\source\repos\myApps\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+C:\Users\drago\source\repos\myApps\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csprojResolveAssemblyReference.cache
+C:\Users\drago\source\repos\myApps\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form1.resources
+C:\Users\drago\source\repos\myApps\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+C:\Users\drago\source\repos\myApps\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
