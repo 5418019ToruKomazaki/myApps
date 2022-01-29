@@ -404,7 +404,7 @@ namespace WindowsFormsApplication2
 
         private void numSort_up()
         {
-            var myTable_sorted = myTable.OrderByDescending((x) => x.Value);
+            var myTable_sorted = myTable.OrderByDescending(x => int.Parse(Regex.Replace(x.Value.ToString(), @"[^0-9]", "")));
             int i = 0;
 
             foreach (var index in myTable_sorted)
@@ -416,7 +416,7 @@ namespace WindowsFormsApplication2
 
         private void numSort_down()
         {
-            var myTable_sorted = myTable.OrderBy((x) => x.Value);
+            var myTable_sorted = myTable.OrderBy(x => int.Parse(Regex.Replace(x.Value.ToString(), @"[^0-9]", "")));
             int i = 0;
 
             foreach (var index in myTable_sorted)
